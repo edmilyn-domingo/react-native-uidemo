@@ -50,4 +50,6 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('andoid_uidemo', () => andoid_uidemo);
+import MainScreen from './MainScreen';
+AppRegistry.registerComponent('andoid_uidemo', () => MainScreen);
+
